@@ -48,9 +48,11 @@ class Picchi_Hero_Widget extends \Elementor\Widget_Base
                 // 'default' => esc_html__('Default title', 'picchi_core'),
                 'placeholder' => esc_html__('Type your subtitle here', 'picchi_core'),
                 'label_block' => true,
+                'default' => 'welcome to our agency',
                 'dynamic' => [
                     'active' => true,
                 ],
+               
 
 
             ]
@@ -64,6 +66,7 @@ class Picchi_Hero_Widget extends \Elementor\Widget_Base
                 // 'default' => esc_html__('Default title', 'picchi_core'),
                 'placeholder' => esc_html__('Type your title here', 'picchi_core'),
                 'label_block' => true,
+                'default' => 'gain the beautiful result',
                 'dynamic' => [
                     'active' => true,
                 ],
@@ -80,6 +83,7 @@ class Picchi_Hero_Widget extends \Elementor\Widget_Base
                 // 'default' => esc_html__('Default title', 'picchi_core'),
                 'placeholder' => esc_html__('Type your description here', 'picchi_core'),
                 'label_block' => true,
+                'default' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
                 'dynamic' => [
                     'active' => true,
                 ],
@@ -111,6 +115,7 @@ class Picchi_Hero_Widget extends \Elementor\Widget_Base
                 // 'default' => esc_html__('Default title', 'picchi_core'),
                 'placeholder' => esc_html__('Type button text here', 'picchi_core'),
                 'label_block' => true,
+                'default' => 'learn more',
                 'dynamic' => [
                     'active' => true,
                 ],
@@ -139,10 +144,12 @@ class Picchi_Hero_Widget extends \Elementor\Widget_Base
                 // 'default' => esc_html__('Default title', 'picchi_core'),
                 'placeholder' => esc_html__('Type button text here', 'picchi_core'),
                 'label_block' => true,
+                'default' => 'contact us',
+                'separator' => 'before',
                 'dynamic' => [
                     'active' => true,
-                ],
-                'separator' => 'before'
+                ]
+                
             ]
         );
         //Button 2 URL
@@ -181,7 +188,7 @@ class Picchi_Hero_Widget extends \Elementor\Widget_Base
 
 
 ?>
-        <div class="welcome-content text-center">
+        <div class="welcome-content ">
             <h4><?php echo $sub_title; ?></h4>
             <h2><?php echo $title; ?></h2>
             <p>

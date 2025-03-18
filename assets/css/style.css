@@ -1,0 +1,55 @@
+
+
+/* Hero Area */
+.welcome-content{
+    text-align: center;
+    color: #fff;
+}
+.welcome-content h4 {
+    font-weight: 300;
+    font-size: 25px;
+  }
+  .welcome-content h2 {
+      font-size: 50px;
+      text-transform: capitalize;
+      margin: 20px 0;
+      font-weight: 600;
+      letter-spacing: 2px;
+  }
+  .welcome-content p {
+    color: #bbb;
+    font-size: 16px;
+    line-height: 1.8;
+  }
+  .welcome-content a {
+    margin: 0 5px;
+    margin-top: 40px;
+  }
+  
+  /* Btn  */
+
+a.box-btn {
+    background-color: tomato;
+    padding: 5px 20px;
+    display: inline-block;
+    color: #fff;
+    text-transform: capitalize;
+    border-radius: 3px;
+    font-size: 15px;
+    transition:.3s
+  }
+  a.box-btn:hover, a.border-btn:hover {
+      background-color: #d35400;
+      color: #fff;
+  }
+  a.border-btn {
+    color: #fff;
+    display: inline-block;
+    padding: 4px 20px;
+    border: 1px solid tomato;
+    border-radius: 3px;
+    font-size: 15px;
+    text-transform: capitalize;
+    transition:.3s
+  }
+  
